@@ -2,7 +2,7 @@
 using System.Net.Http;
 using Microsoft.Owin.Testing;
 
-namespace TddBuddy.CleanUtils.TestHelpers.DotNet.Factories
+namespace TddBuddy.CleanArchitecture.TestUtils.Factories
 {
     public static class TestHttpClientFactory
     {

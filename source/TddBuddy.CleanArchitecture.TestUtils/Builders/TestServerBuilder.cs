@@ -4,8 +4,9 @@ using Microsoft.Owin.Testing;
 using Owin;
 using SimpleInjector;
 using SimpleInjector.Integration.WebApi;
+using SimpleInjector.Lifestyles;
 
-namespace TddBuddy.CleanUtils.TestHelpers.DotNet.Builders
+namespace TddBuddy.CleanArchitecture.TestUtils.Builders
 {
     // todo : handle middle ware and user details 
     public class TestServerBuilder<TTypeInControllerAssembly>
@@ -16,7 +17,7 @@ namespace TddBuddy.CleanUtils.TestHelpers.DotNet.Builders
         public TestServerBuilder()
         {
             _container = new Container();
-            _container.Options.DefaultScopedLifestyle = new WebApiRequestLifestyle();
+            _container.Options.DefaultScopedLifestyle = new AsyncScopedLifestyle();
             _httpConfiguration.MapHttpAttributeRoutes();
             var controllerAssembly = typeof(TTypeInControllerAssembly).Assembly;
             _container.RegisterWebApiControllers(_httpConfiguration, controllerAssembly);

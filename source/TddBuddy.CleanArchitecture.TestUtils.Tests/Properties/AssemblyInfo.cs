@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TddBuddy.CleanUtils.TestHelpers.DotNet.Tests")]
+[assembly: AssemblyTitle("TddBuddy.CleanArchitecture.TestUtils.Tests2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TddBuddy.CleanUtils.TestHelpers.DotNet.Tests")]
+[assembly: AssemblyProduct("TddBuddy.CleanArchitecture.TestUtils.Tests2")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ccf27663-e545-4bdf-84ec-21011d0ddd75")]
+[assembly: Guid("c779ba19-032b-4145-859d-eabcd2569f7b")]
 
 // Version information for an assembly consists of the following four values:
 //
