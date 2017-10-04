@@ -4,11 +4,11 @@ using System.Web.Http;
 namespace TddBuddy.CleanArchitecture.TestUtils.Tests.SampleImplementation
 {
     [RoutePrefix("api/v1/order")]
-    public class CreateOrderController : ApiController
+    public class CreateOrder : ApiController
     {
         private readonly ICreateOrderUseCase _createOrderUseCase;
 
-        public CreateOrderController(ICreateOrderUseCase createOrderUseCase)
+        public CreateOrder(ICreateOrderUseCase createOrderUseCase)
         {
             _createOrderUseCase = createOrderUseCase;
         }

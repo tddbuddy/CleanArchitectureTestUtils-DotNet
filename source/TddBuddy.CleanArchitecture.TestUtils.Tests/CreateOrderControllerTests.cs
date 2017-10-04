@@ -22,7 +22,7 @@ namespace TddBuddy.CleanArchitecture.TestUtils.Tests
             var requestUri = $"api/v1/order/create/{orderId}/{productName}/{quantity}";
             var usecase = CreateUseCase(true);
 
-            var testServer = new TestServerBuilder<CreateOrderController>()
+            var testServer = new TestServerBuilder<CreateOrder>()
                                     .WithInstanceRegistration<ICreateOrderUseCase>(usecase)
                                     .Build();
             using (testServer)
@@ -44,7 +44,7 @@ namespace TddBuddy.CleanArchitecture.TestUtils.Tests
             var quantity = 2;
             var requestUri = $"api/v1/order/create/{orderId}/{productName}/{quantity}";
             var usecase = CreateUseCase(false);
-            var testServer = new TestServerBuilder<CreateOrderController>()
+            var testServer = new TestServerBuilder<CreateOrder>()
                                     .WithInstanceRegistration<ICreateOrderUseCase>(usecase)
                                     .Build();
             using (testServer)

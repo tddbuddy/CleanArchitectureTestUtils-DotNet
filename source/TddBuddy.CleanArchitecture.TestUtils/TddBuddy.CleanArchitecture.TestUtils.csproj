@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TddBuddy.CleanArchitecture.TestUtils</RootNamespace>
     <AssemblyName>TddBuddy.CleanArchitecture.TestUtils</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -92,6 +92,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builders\CustomHttpControllerTypeResolver.cs" />
     <Compile Include="Builders\TestServerBuilder.cs" />
     <Compile Include="Factories\TestHttpClientFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

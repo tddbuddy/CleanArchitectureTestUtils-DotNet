@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>TddBuddy.CleanArchitecture.TestUtils.DotNet</id>
-    <version>1.0.3</version>
+    <version>1.1.0</version>
     <title>Clean Architecture TestUtils - DotNet</title>
     <authors>TddBuddy</authors>
     <owners>StoneAge Technologies</owners>
@@ -11,7 +11,7 @@
     <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A set of utlities to help test controllers implementing the CleanArchitecture</description>
-    <releaseNotes>Updated SimpleInjector version</releaseNotes>
+    <releaseNotes>No longer need to Suffix controllers with controller</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>CleanArchitecture</tags>
   </metadata>
